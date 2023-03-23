@@ -31,14 +31,12 @@ def binary_search(sequence, value):
             right = mid - 1
     return None
 
-# Generate 5 sequences of random integers with sizes between 10,000 and 1,000,000
 sizes = [random.randint(10000, 1000000) for _ in range(5)]
 sequences = [generate_sequence(size) for size in sizes]
 
-# Test search algorithms for each sequence and user input value
 search_algorithms = [ binary_search]
 for sequence in sequences:
-    value = int(input("Enter a number to search for: "))
+    value = int(input("Qual numero voce deseja buscar: "))
     print(f"{sequence}: ")
     for algorithm in search_algorithms:
         start_time = time.monotonic()
