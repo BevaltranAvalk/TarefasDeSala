@@ -1,5 +1,7 @@
 # README
 
+Versão 1.00
+
 Este repositório contém o trabalho desenvolvido pelos alunos da disciplina de **Projeto Implementação de Aplicativos** da PUC Campinas. O objetivo do trabalho era implementar três algoritmos de ordenação diferentes, além de mais dois algorítimos de busca, e comparar seus desempenhos utilizando-se de dados numéricos.
 
 Os algoritmos de ordenação implementados foram:
@@ -19,3 +21,13 @@ Para executar o programa, basta ter o interpretador Python instalado na máquina
 Ao ser executado, o programa irá realizar a ordenação dos números inteiros contidos no arquivo input.txt utilizando os três algoritmos implementados. Em seguida, o programa irá apresentar na tela os resultados da comparação de desempenho entre os algoritmos, bem como gerar o arquivo output.txt contendo os resultados.
 
 Esperamos que este trabalho tenha sido útil para a compreensão dos algoritmos de ordenação e de como eles podem ser implementados em código. Qualquer dúvida ou sugestão, por favor, entre em contato com os autores do trabalho.
+
+=======================================================================================================================================================================
+
+Versão 1.10
+
+Reformulamos os códigos e para otimizar a exibição das informações dos tempos de execução.
+
+Transformamos os 3 codigos em um arquivo só para facilitar a alteração e revisão do codigo.
+
+Tentamos fazer o docker parém não entendemos ao certo sua funcionalidade.
