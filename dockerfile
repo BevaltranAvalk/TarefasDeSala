@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Instala as dependências
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Define o comando a ser executado quando o contêiner for iniciado
 CMD ["python", "main.py"]
