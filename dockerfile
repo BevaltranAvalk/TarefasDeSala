@@ -1,5 +1,6 @@
 # Define a imagem base
 FROM python:3.8
+docker build -t Imagem_API
 
 # Define o diretório de trabalho
 WORKDIR /app
