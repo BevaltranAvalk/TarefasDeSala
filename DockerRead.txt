@@ -1,6 +1,6 @@
 Execute o contêiner Docker usando o comando `docker run` no prompt:
 
-docker run -p 5000:5000 my-api-image
+docker run -p 5000:5000 Imagem_API
 
 Este comando inicia um contêiner Docker a partir da imagem `Imagem_API` e mapeia a porta 5000 do contêiner para a porta 5000 do host. Isso permite que a API Python seja acessada em http://localhost:5000/.
 
