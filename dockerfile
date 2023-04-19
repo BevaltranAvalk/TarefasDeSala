@@ -1,11 +1,12 @@
 # Define a imagem base
-FROM python:3
+FROM python:3.8
 
 # Define o diretório de trabalho
 WORKDIR /app
 
 # Copia os arquivos do diretório atual para o diretório de trabalho
 COPY . /app
+COPY requirements.txt
 
 # Instala as dependências
 RUN pip install -r requirements.txt
