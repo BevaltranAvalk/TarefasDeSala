@@ -1,3 +1,12 @@
+Execute o contêiner Docker usando o comando `docker run` no prompt:
+
+docker run -p 5000:5000 my-api-image
+
+Este comando inicia um contêiner Docker a partir da imagem `Imagem_API` e mapeia a porta 5000 do contêiner para a porta 5000 do host. Isso permite que a API Python seja acessada em http://localhost:5000/.
+
+
+
+
 Para criar um contêiner a partir de um repositório do GitHub que contenha arquivos em Python, você pode seguir os seguintes passos:
 
 Certifique-se de ter instalado o Docker em sua máquina. Você pode baixá-lo em https://www.docker.com/products/docker-desktop.
